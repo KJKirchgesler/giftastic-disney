@@ -1,0 +1,48 @@
+/* Background pattern from Subtle Patterns */
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #003399;
+  background-image: url("../images/memphis-colorful.png");
+}
+
+h1 {
+  font-size: 48px;
+  font-family: Georgia, serif;
+  text-align: center;
+  color: #b30000;
+  font-weight: bolder;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#disney-buttons {
+  float-left;
+}
+
+button.character {
+  margin: 2px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  color: #b30000;
+}
+
+#disney-form {
+  float: right;
+  margin-right: 40px;
+}
+
+input[type=submit] {
+  margin: 2px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  color: #b30000;
+}
+
+#disney-characters {
+  clear: both;
+  display: inline-block;
+  padding: 5px;
+}
